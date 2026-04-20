@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+out/
+
+# NestJS build
+dist/
+
+# Environment files (секреты не загружаем на GitHub)
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Prisma generated (генерируется автоматически)
+src/generated/
